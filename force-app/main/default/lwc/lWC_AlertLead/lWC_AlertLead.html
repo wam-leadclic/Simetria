@@ -1,0 +1,9 @@
+<template>
+    <template if:true={showAlert}>
+        <div class="alert-container">
+            <lightning-icon icon-name="utility:warning" alternative-text="Warning!" variant="warning"
+                title="Advertencia" size="small" class="alert-icon"></lightning-icon>
+            <span class="alert-text">Este {accountName} Es potencial</span>
+        </div>
+    </template>
+</template>

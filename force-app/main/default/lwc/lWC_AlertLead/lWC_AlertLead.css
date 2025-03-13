@@ -1,0 +1,20 @@
+.alert-container {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 171, 0, 0.15); /* Naranja claro tipo toast */
+    border-left: 5px solid #FFAB00; /* Borde más fuerte */
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: #795548; /* Marrón oscuro */
+    margin-bottom: 10px;
+}
+
+.alert-icon {
+    margin-right: 10px;
+}
+
+.alert-text {
+    font-size: 14px;
+}
