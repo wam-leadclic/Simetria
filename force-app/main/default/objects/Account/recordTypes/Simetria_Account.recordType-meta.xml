@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Simetria_Account</fullName>
+    <active>true</active>
+    <label>Cliente</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SupplierCategory__c</picklist>
+        <values>
+            <fullName>Maquinaria y Equipos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oficios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios Generales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suministros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SupplierSubcategory__c</picklist>
+        <values>
+            <fullName>Aceites%2C Lubricantes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acero corrugado %28ferrallas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aditivos y productos químicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aislamientos %28poliuretano%2C poliestireno expandido%2C lana de roca%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alquiler %2F Renting %2F Leasing Vehículos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alquiler de Casetas y baños químicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alquiler de Locales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alquiler de Maquinaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alquileres de Maquinaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aparatos elevadores %28 Ascensores%2C Escaleras mecánicas%2C Montacargas%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baños %28grifería%2C sanitarios%2C mobiliario de baño%2C mamparas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Betunes%2C Emulsiones y MBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bombeos de Hormigón</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carpintería Metálica%2C Cristalería y Muro Cortina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carpintería de Madera%2C Puertas de Paso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerrajería %28trabajos a medida%29 y Calderería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerramientos Cerámicos %28Ladrillo%2C caravista%2C fachada ventilada%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerramientos Metálicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cocinas %28 muebles%2C electrodomésticos%2C encimeras %2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Combustibles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conducciones %28 PE%2C PVC%2C fundición%2C Poliéster%2C Accesorios tuberías%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumibles de Limpieza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contenedores RSU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Control de Calidad en Obra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Depósitos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrodomésticos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Encofrados y andamios%2C entibaciones y cimbras%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipamiento Deportivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipos de seguridad individual y colectivos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estabilización y Protección de Taludes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estructuras Metálicas y Cubiertas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estructuras y Cubiertas de Madera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fachada ventilada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falsos techos y tabiquería %28escayola%2C pladur%2C metálicos%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ferretería Industrial y Pequeña Herramienta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forjados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundiciones %28 Trapas%2C Rejillas%2C canales%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gases de soldadura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gestión de Residuos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grupos Presión %2F Contraincendios %2F bombas de achique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grúas%2C Montacargas%2C Andamio eléctrico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware de Seguridad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hormigones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impermeabilizaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imprenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalaciones  de Climatización y ventilación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalaciones de %28Fontanería %2F Gas %2F Calefacción%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalaciones de EDAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalaciones de Electricidad %2C Audiovisuales%2C Telecomunicaciones y Seguridad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalaciones de Geotermia%2C Solares %2C etc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalaciones de riego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalaciones deportivas %28 pistas deportivas%2C piscinas%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalación CONTRA-INCENDIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jardinería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ladrillo y Cerámica Decorativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limpieza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mano de Obra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mantenimientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maquinaria y Equipos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material Eléctrico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material de Oficina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materiales Férricos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materiales Generales de Construcción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materiales y Equipos de Jardinería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobiliario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobiliario urbano %28 Bancos%2C papeleras%2C hitos%2C jardineras%2C Juegos Infantiles%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movimiento de tierras%2C vertederos%2C demoliciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neumáticos y Repuestos Maquinaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros Consumibles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros Servicios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pavimentos de Hormigón %28Hidráulicos%2C Terrazo%2C Adoquines%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pavimentos de hormigón %28Ejecución%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pavimentos deportivos%2C madera o sintéticos%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pavimentos y revestimientos cerámicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perforaciones %28Pozos%2C Hincas%2C sondeos%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perforaciones en forjados %28taladros%2C regatas%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piedra Artificial y natural %28Dinteles%2C Vierteaguas%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pilotaje y muros pantalla%2E Anclajes%2C micropilotes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pintura %28 Monocapa%2C plástica%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefabricados de hormigón %28tuberías%2C Marcos%2C bordillos%2C Arquetas%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puertas metálicas e Industriales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sellados Juntas dilatación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios Profesionales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Señalización viaria %28Horizontal y Vertical%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Señalización y Cartelería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sum y Montaje Prefabricados de Hormigón %28Estructuras%2C Pantallas Acústicas%2C Escaleras%2C Puentes%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tabiquería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tableros y Maderas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taller mecánico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telefonía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toldos y Carpas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabajos Forestales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabajos Marítimos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabajos Verticales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vallados de Tela metálica y Chapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valvuleria y accesorios de valvuleria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vestuario Laboral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yesos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Áridos%2C Gravas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SupplierType__c</picklist>
+        <values>
+            <fullName>Homologado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Homologado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Analyst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Press</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

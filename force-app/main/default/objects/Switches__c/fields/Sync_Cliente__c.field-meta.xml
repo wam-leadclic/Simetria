@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_Cliente__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Sincronización de Clientes a través de trigger con las modificaciones del cliente</description>
+    <label>T - Cuenta - Sync Cliente</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

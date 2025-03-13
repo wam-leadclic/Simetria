@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExternalSiteCode__c</fullName>
+    <description>Código generado por SAP automáticamente en base a un patrón conocido, utilizado para localizar a la obra.</description>
+    <externalId>true</externalId>
+    <label>Código Obra</label>
+    <length>90</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

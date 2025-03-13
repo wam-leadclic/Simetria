@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rol__c</fullName>
+    <description>Campo que almacena el cargo que ostenta esta persona, no es viable tenerlo por picklist debido a la multitud de valores.</description>
+    <externalId>false</externalId>
+    <label>Cargo</label>
+    <length>90</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

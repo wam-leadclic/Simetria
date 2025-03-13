@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SupplierSubcategory__c</fullName>
+    <description>Subtipo del proveedor</description>
+    <label>Subcategoría</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aceites, Lubricantes</fullName>
+                <default>false</default>
+                <label>Aceites, Lubricantes</label>
+            </value>
+            <value>
+                <fullName>Aditivos y productos químicos</fullName>
+                <default>false</default>
+                <label>Aditivos y productos químicos</label>
+            </value>
+            <value>
+                <fullName>Áridos, Gravas</fullName>
+                <default>false</default>
+                <label>Áridos, Gravas</label>
+            </value>
+            <value>
+                <fullName>Baños (grifería, sanitarios, mobiliario de baño, mamparas)</fullName>
+                <default>false</default>
+                <label>Baños (grifería, sanitarios, mobiliario de baño, mamparas)</label>
+            </value>
+            <value>
+                <fullName>Betunes, Emulsiones y MBC</fullName>
+                <default>false</default>
+                <label>Betunes, Emulsiones y MBC</label>
+            </value>
+            <value>
+                <fullName>Combustibles</fullName>
+                <default>false</default>
+                <label>Combustibles</label>
+            </value>
+            <value>
+                <fullName>Conducciones ( PE, PVC, fundición, Poliéster, Accesorios tuberías)</fullName>
+                <default>false</default>
+                <label>Conducciones ( PE, PVC, fundición, Poliéster, Accesorios tuberías)</label>
+            </value>
+            <value>
+                <fullName>Consumibles de Limpieza</fullName>
+                <default>false</default>
+                <label>Consumibles de Limpieza</label>
+            </value>
+            <value>
+                <fullName>Contenedores RSU</fullName>
+                <default>false</default>
+                <label>Contenedores RSU</label>
+            </value>
+            <value>
+                <fullName>Depósitos</fullName>
+                <default>false</default>
+                <label>Depósitos</label>
+            </value>
+            <value>
+                <fullName>Electrodomésticos</fullName>
+                <default>false</default>
+                <label>Electrodomésticos</label>
+            </value>
+            <value>
+                <fullName>Equipamiento Deportivo</fullName>
+                <default>false</default>
+                <label>Equipamiento Deportivo</label>
+            </value>
+            <value>
+                <fullName>Equipos de seguridad individual y colectivos</fullName>
+                <default>false</default>
+                <label>Equipos de seguridad individual y colectivos</label>
+            </value>
+            <value>
+                <fullName>Ferretería Industrial y Pequeña Herramienta</fullName>
+                <default>false</default>
+                <label>Ferretería Industrial y Pequeña Herramienta</label>
+            </value>
+            <value>
+                <fullName>Fundiciones ( Trapas, Rejillas, canales, etc.)</fullName>
+                <default>false</default>
+                <label>Fundiciones ( Trapas, Rejillas, canales, etc.)</label>
+            </value>
+            <value>
+                <fullName>Gases de soldadura</fullName>
+                <default>false</default>
+                <label>Gases de soldadura</label>
+            </value>
+            <value>
+                <fullName>Grupos Presión / Contraincendios / bombas de achique</fullName>
+                <default>false</default>
+                <label>Grupos Presión / Contraincendios / bombas de achique</label>
+            </value>
+            <value>
+                <fullName>Hardware de Seguridad</fullName>
+                <default>false</default>
+                <label>Hardware de Seguridad</label>
+            </value>
+            <value>
+                <fullName>Hormigones</fullName>
+                <default>false</default>
+                <label>Hormigones</label>
+            </value>
+            <value>
+                <fullName>Imprenta</fullName>
+                <default>false</default>
+                <label>Imprenta</label>
+            </value>
+            <value>
+                <fullName>Ladrillo y Cerámica Decorativa</fullName>
+                <default>false</default>
+                <label>Ladrillo y Cerámica Decorativa</label>
+            </value>
+            <value>
+                <fullName>Material de Oficina</fullName>
+                <default>false</default>
+                <label>Material de Oficina</label>
+            </value>
+            <value>
+                <fullName>Material Eléctrico</fullName>
+                <default>false</default>
+                <label>Material Eléctrico</label>
+            </value>
+            <value>
+                <fullName>Materiales Férricos</fullName>
+                <default>false</default>
+                <label>Materiales Férricos</label>
+            </value>
+            <value>
+                <fullName>Materiales Generales de Construcción</fullName>
+                <default>false</default>
+                <label>Materiales Generales de Construcción</label>
+            </value>
+            <value>
+                <fullName>Materiales y Equipos de Jardinería</fullName>
+                <default>false</default>
+                <label>Materiales y Equipos de Jardinería</label>
+            </value>
+            <value>
+                <fullName>Mobiliario</fullName>
+                <default>false</default>
+                <label>Mobiliario</label>
+            </value>
+            <value>
+                <fullName>Mobiliario urbano ( Bancos, papeleras, hitos, jardineras, Juegos Infantiles, etc.)</fullName>
+                <default>false</default>
+                <label>Mobiliario urbano ( Bancos, papeleras, hitos, jardineras, Juegos Infantiles, etc.)</label>
+            </value>
+            <value>
+                <fullName>Neumáticos y Repuestos Maquinaria</fullName>
+                <default>false</default>
+                <label>Neumáticos y Repuestos Maquinaria</label>
+            </value>
+            <value>
+                <fullName>Otros Consumibles</fullName>
+                <default>false</default>
+                <label>Otros Consumibles</label>
+            </value>
+            <value>
+                <fullName>Pavimentos de Hormigón (Hidráulicos, Terrazo, Adoquines)</fullName>
+                <default>false</default>
+                <label>Pavimentos de Hormigón (Hidráulicos, Terrazo, Adoquines)</label>
+            </value>
+            <value>
+                <fullName>Pavimentos y revestimientos cerámicos</fullName>
+                <default>false</default>
+                <label>Pavimentos y revestimientos cerámicos</label>
+            </value>
+            <value>
+                <fullName>Piedra Artificial y natural (Dinteles, Vierteaguas, etc.)</fullName>
+                <default>false</default>
+                <label>Piedra Artificial y natural (Dinteles, Vierteaguas, etc.)</label>
+            </value>
+            <value>
+                <fullName>Prefabricados de hormigón (tuberías, Marcos, bordillos, Arquetas, etc.)</fullName>
+                <default>false</default>
+                <label>Prefabricados de hormigón (tuberías, Marcos, bordillos, Arquetas, etc.)</label>
+            </value>
+            <value>
+                <fullName>Señalización y Cartelería</fullName>
+                <default>false</default>
+                <label>Señalización y Cartelería</label>
+            </value>
+            <value>
+                <fullName>Tableros y Maderas</fullName>
+                <default>false</default>
+                <label>Tableros y Maderas</label>
+            </value>
+            <value>
+                <fullName>Valvuleria y accesorios de valvuleria</fullName>
+                <default>false</default>
+                <label>Valvuleria y accesorios de valvuleria</label>
+            </value>
+            <value>
+                <fullName>Vestuario Laboral</fullName>
+                <default>false</default>
+                <label>Vestuario Laboral</label>
+            </value>
+            <value>
+                <fullName>Acero corrugado (ferrallas)</fullName>
+                <default>false</default>
+                <label>Acero corrugado (ferrallas)</label>
+            </value>
+            <value>
+                <fullName>Aislamientos (poliuretano, poliestireno expandido, lana de roca)</fullName>
+                <default>false</default>
+                <label>Aislamientos (poliuretano, poliestireno expandido, lana de roca)</label>
+            </value>
+            <value>
+                <fullName>Alquileres de Maquinaria</fullName>
+                <default>false</default>
+                <label>Alquileres de Maquinaria</label>
+            </value>
+            <value>
+                <fullName>Aparatos elevadores ( Ascensores, Escaleras mecánicas, Montacargas, etc.)</fullName>
+                <default>false</default>
+                <label>Aparatos elevadores ( Ascensores, Escaleras mecánicas, Montacargas, etc.)</label>
+            </value>
+            <value>
+                <fullName>Bombeos de Hormigón</fullName>
+                <default>false</default>
+                <label>Bombeos de Hormigón</label>
+            </value>
+            <value>
+                <fullName>Carpintería de Madera, Puertas de Paso</fullName>
+                <default>false</default>
+                <label>Carpintería de Madera, Puertas de Paso</label>
+            </value>
+            <value>
+                <fullName>Carpintería Metálica, Cristalería y Muro Cortina</fullName>
+                <default>false</default>
+                <label>Carpintería Metálica, Cristalería y Muro Cortina</label>
+            </value>
+            <value>
+                <fullName>Cerrajería (trabajos a medida) y Calderería</fullName>
+                <default>false</default>
+                <label>Cerrajería (trabajos a medida) y Calderería</label>
+            </value>
+            <value>
+                <fullName>Cerramientos Cerámicos (Ladrillo, caravista, fachada ventilada)</fullName>
+                <default>false</default>
+                <label>Cerramientos Cerámicos (Ladrillo, caravista, fachada ventilada)</label>
+            </value>
+            <value>
+                <fullName>Cerramientos Metálicos</fullName>
+                <default>false</default>
+                <label>Cerramientos Metálicos</label>
+            </value>
+            <value>
+                <fullName>Cocinas ( muebles, electrodomésticos, encimeras , etc.)</fullName>
+                <default>false</default>
+                <label>Cocinas ( muebles, electrodomésticos, encimeras , etc.)</label>
+            </value>
+            <value>
+                <fullName>Control de Calidad en Obra</fullName>
+                <default>false</default>
+                <label>Control de Calidad en Obra</label>
+            </value>
+            <value>
+                <fullName>Encofrados y andamios, entibaciones y cimbras.</fullName>
+                <default>false</default>
+                <label>Encofrados y andamios, entibaciones y cimbras.</label>
+            </value>
+            <value>
+                <fullName>Estabilización y Protección de Taludes</fullName>
+                <default>false</default>
+                <label>Estabilización y Protección de Taludes</label>
+            </value>
+            <value>
+                <fullName>Estructuras Metálicas y Cubiertas</fullName>
+                <default>false</default>
+                <label>Estructuras Metálicas y Cubiertas</label>
+            </value>
+            <value>
+                <fullName>Estructuras y Cubiertas de Madera</fullName>
+                <default>false</default>
+                <label>Estructuras y Cubiertas de Madera</label>
+            </value>
+            <value>
+                <fullName>Fachada ventilada</fullName>
+                <default>false</default>
+                <label>Fachada ventilada</label>
+            </value>
+            <value>
+                <fullName>Falsos techos y tabiquería (escayola, pladur, metálicos)</fullName>
+                <default>false</default>
+                <label>Falsos techos y tabiquería (escayola, pladur, metálicos)</label>
+            </value>
+            <value>
+                <fullName>Forjados</fullName>
+                <default>false</default>
+                <label>Forjados</label>
+            </value>
+            <value>
+                <fullName>Grúas, Montacargas, Andamio eléctrico</fullName>
+                <default>false</default>
+                <label>Grúas, Montacargas, Andamio eléctrico</label>
+            </value>
+            <value>
+                <fullName>Impermeabilizaciones</fullName>
+                <default>false</default>
+                <label>Impermeabilizaciones</label>
+            </value>
+            <value>
+                <fullName>Instalación CONTRA-INCENDIOS</fullName>
+                <default>false</default>
+                <label>Instalación CONTRA-INCENDIOS</label>
+            </value>
+            <value>
+                <fullName>Instalaciones  de Climatización y ventilación</fullName>
+                <default>false</default>
+                <label>Instalaciones  de Climatización y ventilación</label>
+            </value>
+            <value>
+                <fullName>Instalaciones de (Fontanería / Gas / Calefacción)</fullName>
+                <default>false</default>
+                <label>Instalaciones de (Fontanería / Gas / Calefacción)</label>
+            </value>
+            <value>
+                <fullName>Instalaciones de EDAR</fullName>
+                <default>false</default>
+                <label>Instalaciones de EDAR</label>
+            </value>
+            <value>
+                <fullName>Instalaciones de Electricidad , Audiovisuales, Telecomunicaciones y Seguridad</fullName>
+                <default>false</default>
+                <label>Instalaciones de Electricidad , Audiovisuales, Telecomunicaciones y Seguridad</label>
+            </value>
+            <value>
+                <fullName>Instalaciones de Geotermia, Solares , etc.</fullName>
+                <default>false</default>
+                <label>Instalaciones de Geotermia, Solares , etc.</label>
+            </value>
+            <value>
+                <fullName>Instalaciones de riego</fullName>
+                <default>false</default>
+                <label>Instalaciones de riego</label>
+            </value>
+            <value>
+                <fullName>Instalaciones deportivas ( pistas deportivas, piscinas, etc.)</fullName>
+                <default>false</default>
+                <label>Instalaciones deportivas ( pistas deportivas, piscinas, etc.)</label>
+            </value>
+            <value>
+                <fullName>Jardinería</fullName>
+                <default>false</default>
+                <label>Jardinería</label>
+            </value>
+            <value>
+                <fullName>Mano de Obra</fullName>
+                <default>false</default>
+                <label>Mano de Obra</label>
+            </value>
+            <value>
+                <fullName>Sum y Montaje Prefabricados de Hormigón (Estructuras, Pantallas Acústicas, Escaleras, Puentes, etc.)</fullName>
+                <default>false</default>
+                <label>Sum y Montaje Prefabricados de Hormigón (Estructuras, Pantallas Acústicas, Escaleras, Puentes, etc.)</label>
+            </value>
+            <value>
+                <fullName>Movimiento de tierras, vertederos, demoliciones</fullName>
+                <default>false</default>
+                <label>Movimiento de tierras, vertederos, demoliciones</label>
+            </value>
+            <value>
+                <fullName>Pavimentos de hormigón (Ejecución)</fullName>
+                <default>false</default>
+                <label>Pavimentos de hormigón (Ejecución)</label>
+            </value>
+            <value>
+                <fullName>Pavimentos deportivos, madera o sintéticos.</fullName>
+                <default>false</default>
+                <label>Pavimentos deportivos, madera o sintéticos.</label>
+            </value>
+            <value>
+                <fullName>Perforaciones (Pozos, Hincas, sondeos, etc.)</fullName>
+                <default>false</default>
+                <label>Perforaciones (Pozos, Hincas, sondeos, etc.)</label>
+            </value>
+            <value>
+                <fullName>Perforaciones en forjados (taladros, regatas, etc.)</fullName>
+                <default>false</default>
+                <label>Perforaciones en forjados (taladros, regatas, etc.)</label>
+            </value>
+            <value>
+                <fullName>Pilotaje y muros pantalla. Anclajes, micropilotes</fullName>
+                <default>false</default>
+                <label>Pilotaje y muros pantalla. Anclajes, micropilotes</label>
+            </value>
+            <value>
+                <fullName>Pintura ( Monocapa, plástica, etc.)</fullName>
+                <default>false</default>
+                <label>Pintura ( Monocapa, plástica, etc.)</label>
+            </value>
+            <value>
+                <fullName>Puertas metálicas e Industriales</fullName>
+                <default>false</default>
+                <label>Puertas metálicas e Industriales</label>
+            </value>
+            <value>
+                <fullName>Sellados Juntas dilatación</fullName>
+                <default>false</default>
+                <label>Sellados Juntas dilatación</label>
+            </value>
+            <value>
+                <fullName>Señalización viaria (Horizontal y Vertical)</fullName>
+                <default>false</default>
+                <label>Señalización viaria (Horizontal y Vertical)</label>
+            </value>
+            <value>
+                <fullName>Tabiquería</fullName>
+                <default>false</default>
+                <label>Tabiquería</label>
+            </value>
+            <value>
+                <fullName>Toldos y Carpas</fullName>
+                <default>false</default>
+                <label>Toldos y Carpas</label>
+            </value>
+            <value>
+                <fullName>Trabajos Forestales</fullName>
+                <default>false</default>
+                <label>Trabajos Forestales</label>
+            </value>
+            <value>
+                <fullName>Trabajos Marítimos</fullName>
+                <default>false</default>
+                <label>Trabajos Marítimos</label>
+            </value>
+            <value>
+                <fullName>Trabajos Verticales</fullName>
+                <default>false</default>
+                <label>Trabajos Verticales</label>
+            </value>
+            <value>
+                <fullName>Vallados de Tela metálica y Chapa</fullName>
+                <default>false</default>
+                <label>Vallados de Tela metálica y Chapa</label>
+            </value>
+            <value>
+                <fullName>Yesos</fullName>
+                <default>false</default>
+                <label>Yesos</label>
+            </value>
+            <value>
+                <fullName>Alquiler de Casetas y baños químicos</fullName>
+                <default>false</default>
+                <label>Alquiler de Casetas y baños químicos</label>
+            </value>
+            <value>
+                <fullName>Alquiler de Maquinaria</fullName>
+                <default>false</default>
+                <label>Alquiler de Maquinaria</label>
+            </value>
+            <value>
+                <fullName>Alquiler / Renting / Leasing Vehículos</fullName>
+                <default>false</default>
+                <label>Alquiler / Renting / Leasing Vehículos</label>
+            </value>
+            <value>
+                <fullName>Alquiler de Locales</fullName>
+                <default>false</default>
+                <label>Alquiler de Locales</label>
+            </value>
+            <value>
+                <fullName>Energía</fullName>
+                <default>false</default>
+                <label>Energía</label>
+            </value>
+            <value>
+                <fullName>Gestión de Residuos</fullName>
+                <default>false</default>
+                <label>Gestión de Residuos</label>
+            </value>
+            <value>
+                <fullName>Limpieza</fullName>
+                <default>false</default>
+                <label>Limpieza</label>
+            </value>
+            <value>
+                <fullName>Mantenimientos</fullName>
+                <default>false</default>
+                <label>Mantenimientos</label>
+            </value>
+            <value>
+                <fullName>Taller mecánico</fullName>
+                <default>false</default>
+                <label>Taller mecánico</label>
+            </value>
+            <value>
+                <fullName>Telefonía</fullName>
+                <default>false</default>
+                <label>Telefonía</label>
+            </value>
+            <value>
+                <fullName>Transporte</fullName>
+                <default>false</default>
+                <label>Transporte</label>
+            </value>
+            <value>
+                <fullName>Servicios Profesionales</fullName>
+                <default>false</default>
+                <label>Servicios Profesionales</label>
+            </value>
+            <value>
+                <fullName>Otros Servicios</fullName>
+                <default>false</default>
+                <label>Otros Servicios</label>
+            </value>
+            <value>
+                <fullName>Maquinaria y Equipos</fullName>
+                <default>false</default>
+                <label>Maquinaria y Equipos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

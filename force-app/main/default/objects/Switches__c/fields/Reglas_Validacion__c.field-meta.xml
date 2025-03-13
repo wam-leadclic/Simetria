@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reglas_Validacion__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Aplicar las reglas de validación del objeto de Cuenta</description>
+    <label>V - Cuenta - Reglas Validación</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

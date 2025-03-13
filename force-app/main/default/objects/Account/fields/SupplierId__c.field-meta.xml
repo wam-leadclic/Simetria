@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SupplierId__c</fullName>
+    <description>Código alfanumérico único que identifica al proveedor de forma unívoca. El formato viene de SAP.</description>
+    <externalId>true</externalId>
+    <label>Código Proveedor</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

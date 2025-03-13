@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>*</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTestSuite</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+	<types>
+		<members>Account</members>
+		<members>Activity</members>
+		<members>Contact</members>
+		<members>Event</members>
+		<members>Offer__c</members>
+		<members>Project__c</members>
+		<members>Relation__c</members>
+		<members>Reminder__mdt</members>
+		<members>Switches__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Account_Record_Page_Three_Column</members>
+		<members>Contact_Record_Page_Three_Column</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Account-Account Layout</members>
+		<members>Account-Cliente Layout</members>
+		<members>Account-Proveedor Layout</members>
+		<members>Event-Event Layout</members>
+		<members>Offer__c-Offer Layout</members>
+		<members>Project__c-Project Layout</members>
+		<members>Relation__c-Relation Layout</members>
+		<members>Reminder__mdt-Recordatorios Layout</members>
+		<members>Task-Task Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StaticResource</name>
+	</types>
+	<version>63.0</version>
+</Package>
